@@ -1,4 +1,4 @@
-# lobe-tour
+# Lobe-tour
 Project Lobe Tour is for practice my HTML & CSS skills.
 
 ## Origin
