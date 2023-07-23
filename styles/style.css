@@ -26,6 +26,17 @@ body {
     flex-direction: column;
   }
 
+  a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+
+
 .main-nav {
     display: flex;
     flex-direction: row;
