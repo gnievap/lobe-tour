@@ -3,14 +3,15 @@
     --black: #333;
     --mint: #04ddb2;
     --light-gray: #767676;
-    --usm: 8px;
-    --sm: 10px;
+    --usm: 10px;
+    --sm: 12px;
     --md: 16px;
     --lg: 18px;
   }
 
 *{
     box-sizing: border-box;
+    font-family: 'Helvetica', Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -20,8 +21,9 @@ html {
 }
 
 body {
-    margin: 0;
-    font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
   }
 
 .main-nav {
@@ -69,4 +71,18 @@ button {
     color: var(--mint);
 }
 
+main {
+    flex: 1;
+}
+
+footer {
+    color: var(--black);
+    line-height: 1.5;
+}
+
+.footer-main {
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap; /*will let the footer wrap into multiple rows based on the viewport size */
+}
 
