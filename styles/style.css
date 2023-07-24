@@ -150,5 +150,20 @@ ul {
     align-items: center;
 }
 
+.icon-footer:hover {
+    color: var(--white);
+    background-color: var(--mint);
+    border-radius: 40px;
+    line-height: 20px;
+    height: 23px;
+    width: 23px;
+    margin: auto 2px;
+    font-size: var(--sm);
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    
+}
+
 
 
